@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tech.wats_hannpanaitte.Main7Activity">
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="633dp"
+        android:layout_height="883dp"
+        app:srcCompat="@drawable/monma22"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-24dp" />
+</android.support.constraint.ConstraintLayout>

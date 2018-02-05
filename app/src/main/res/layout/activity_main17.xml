@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A9A9A9"
+    tools:context="com.example.tech.wats_hannpanaitte.Main17Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="420dp"
+        android:layout_height="88dp"
+        android:layout_marginBottom="360dp"
+        android:text="東地区 2017-18シーズン"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="602dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="696dp"
+        android:text="1位 秋田ノーザンハピネッツ 25勝 ４敗"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="603dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="668dp"
+        android:background="#000000"
+        android:text="2位 福島ファイヤーボンズ     17勝 12敗"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="608dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="640dp"
+        android:text="3位 山形ワイヴァンズ              14勝 15敗"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="648dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="608dp"
+        android:background="#000000"
+        android:text="4位 仙台89ERS    　　　　      13勝 16敗"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView10" />
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="602dp"
+        android:layout_height="31dp"
+        android:layout_marginBottom="576dp"
+        android:text="5位 青森ワッツ                              8勝 22敗"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView10" />
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="702dp"
+        android:layout_height="30dp"
+
+        android:layout_marginBottom="544dp"
+        android:background="#000000"
+        android:text="6位 岩手ビッグブルズ　        　2勝 27敗"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView10" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="656dp"
+        android:layout_height="386dp"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:srcCompat="@drawable/watslogo" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="190dp"
+        android:layout_height="120dp"
+        app:srcCompat="?attr/actionBarDivider"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="453dp" />
+
+</android.support.constraint.ConstraintLayout>
